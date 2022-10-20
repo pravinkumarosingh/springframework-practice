@@ -1,7 +1,9 @@
 package com.sugarglider.spring.games;
 
 import com.sugarglider.spring.game.GamingConsole;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MarioGame implements GamingConsole {
 
 

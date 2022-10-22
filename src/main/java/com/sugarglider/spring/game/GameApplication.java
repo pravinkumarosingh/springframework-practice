@@ -1,10 +1,6 @@
 package com.sugarglider.spring.game;
 
-import com.sugarglider.spring.games.MarioGame;
-import com.sugarglider.spring.games.PacmanGame;
-import com.sugarglider.spring.games.SuperContraGame;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;

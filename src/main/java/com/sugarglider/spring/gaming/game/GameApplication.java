@@ -1,5 +1,6 @@
-package com.sugarglider.spring.game;
+package com.sugarglider.spring.gaming.game;
 
+import com.sugarglider.spring.enterprise.MyWebController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -28,6 +29,9 @@ public class GameApplication {
 		ConfigurableApplicationContext applicationContext = SpringApplication.run(GameApplication.class, args);
 		GameRunner gameRunner = applicationContext.getBean(GameRunner.class);
 		gameRunner.run();
+
+		MyWebController myWebController = applicationContext.getBean(MyWebController.class);
+		System.out.println(myWebController.returnValueFromBusinessService());
 
 
 	}

@@ -1,4 +1,4 @@
-package com.sugarglider.spring.game;
+package com.sugarglider.spring.gaming.game;
 
 import org.springframework.stereotype.Component;
 

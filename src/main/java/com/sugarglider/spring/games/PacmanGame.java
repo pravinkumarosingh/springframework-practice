@@ -15,7 +15,7 @@ public class PacmanGame implements GamingConsole {
 
     @Override
     public void fire() {
-
+        System.out.println("Pacman don't fire");
     }
 
     @Override

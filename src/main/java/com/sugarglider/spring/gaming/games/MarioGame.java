@@ -1,6 +1,7 @@
-package com.sugarglider.spring.games;
+package com.sugarglider.spring.gaming.games;
 
-import com.sugarglider.spring.game.GamingConsole;
+import com.sugarglider.spring.gaming.game.GamingConsole;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component

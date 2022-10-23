@@ -3,7 +3,6 @@ package com.sugarglider.spring.enterprise;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import javax.xml.crypto.Data;
 import java.util.List;
 
 @Component
